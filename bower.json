@@ -1,7 +1,7 @@
 {
-  "name": "angular-http-batcher",
-  "version": "1.12.0",
-  "description": "Enables transparent HTTP batch requests with Angular",
+  "name": "angularjs-http-batcher",
+  "version": "1.13.0",
+  "description": "Enables transparent HTTP batch requests with AngularJS",
   "main": "dist/angular-http-batch.js",
   "keywords": [
     "angularjs",
@@ -20,10 +20,10 @@
       "url": "http://www.opensource.org/licenses/MIT"
     }
   ],
-  "homepage": "https://github.com/jonsamwell/angular-http-batcher",
+  "homepage": "https://github.com/Omninox/angular-http-batcher",
   "repository": {
     "type": "git",
-    "url": "git://github.com/jonsamwell/angular-http-batcher"
+    "url": "https://github.com/Omninox/angular-http-batcher"
   },
   "ignore": [
     "**/.*",
