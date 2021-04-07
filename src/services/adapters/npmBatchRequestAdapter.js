@@ -90,8 +90,6 @@
             transformRequest(requestIndex, requests[requestIndex], httpConfig);
         }
 
-        console.log({httpConfig});
-
         return httpConfig;
     };
 
@@ -113,8 +111,6 @@
         var requestIndex;
         var batchResponses = [];
         var response;
-
-        console.log({rawResponse});
 
         for (requestIndex = 0; requestIndex < requests.length; requestIndex++) {
             response = rawResponse.data[requestIndex].response;
