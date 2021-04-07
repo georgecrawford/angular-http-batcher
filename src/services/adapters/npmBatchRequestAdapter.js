@@ -115,12 +115,12 @@
         var response;
 
         for (requestIndex = 0; requestIndex < requests.length; requestIndex++) {
-            response = rawResponse.data[requestIndex];
+            response = rawResponse.data.batch[requestIndex];
 
             batchResponses.push(
                 new HttpBatchResponseData(
                     requests[requestIndex],
-                    response.statusCode,
+                    response.code,
                     '',
                     response.body,
                     response.headers
