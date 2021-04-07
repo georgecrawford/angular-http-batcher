@@ -25,7 +25,7 @@
 
         httpConfig.data.batch[requestIndex] = {
             method: request.method,
-            uri: request.url,
+            url: request.url,
             headers: request.headers,
         };
     }
@@ -41,7 +41,7 @@
     function transformRequestWithBody(requestIndex, request, httpConfig) {
         httpConfig.data.batch[requestIndex] = {
             method: request.method,
-            uri: request.url,
+            url: request.url,
             headers: request.headers,
             body: request.data,
         };
