@@ -114,8 +114,10 @@
         var batchResponses = [];
         var response;
 
+        console.log({rawResponse});
+
         for (requestIndex = 0; requestIndex < requests.length; requestIndex++) {
-            response = rawResponse.data.batch[requestIndex];
+            response = rawResponse.data[requestIndex].response;
 
             batchResponses.push(
                 new HttpBatchResponseData(
